@@ -15,7 +15,7 @@ namespace AESTest
         public static int _count = 0;
         static void Main(string[] args)
         {
-            GaeaMySqlPower.Register("server=mysql01.rds.ucitymetro.com;port=3306;user id=dbtrans;password=Zhang123;database=itps_test;SslMode=none");
+            GaeaMySqlPower.Register("server=localhost;port=3306;user id=root;password=Aa82078542;database=testmysql;SslMode=none");
             var resultDataTable = OpenCSV(@"E:\csvs\result.csv");
             Console.WriteLine("程序运行结束");
             Console.ReadKey();
